@@ -49,7 +49,7 @@ def display_menu():
         st.write("- OFFER LIST (MANUAL)")
 
         # Sub-menu for "SPECIAL OFFER LIST FROM STOCK"
-        with st.expander("SPECIAL OFFER LIST FROM STOCK"):
+        with st.button("SPECIAL OFFER LIST FROM STOCK"):
             st.write("- DEFAULT")
             st.write("- AUTO BOTH (LAST ACTIVATED)")
             st.write("- FROM OFFER 1 (LAST ACTIVATED)")
