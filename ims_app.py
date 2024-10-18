@@ -48,8 +48,11 @@ def display_menu():
         st.write("- PURCHASE INVOICE")
         st.write("- OFFER LIST (MANUAL)")
 
-        # Sub-menu for "SPECIAL OFFER LIST FROM STOCK"
-        with st.button("SPECIAL OFFER LIST FROM STOCK"):
+        # Using a checkbox to handle the sub-menu for "SPECIAL OFFER LIST FROM STOCK"
+        show_special_offer_list = st.checkbox("SPECIAL OFFER LIST FROM STOCK")
+
+        # Display the sub-menu items if the checkbox is checked
+        if show_special_offer_list:
             st.write("- DEFAULT")
             st.write("- AUTO BOTH (LAST ACTIVATED)")
             st.write("- FROM OFFER 1 (LAST ACTIVATED)")
