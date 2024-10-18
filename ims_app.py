@@ -47,7 +47,13 @@ def display_menu():
         st.write("- SALES INVOICE")
         st.write("- PURCHASE INVOICE")
         st.write("- OFFER LIST (MANUAL)")
-        st.write("- SPECIAL OFFER LIST FROM STOCK")
+    with st.sidebar.expander("SPECIAL OFFER LIST FROM STOCK"):        
+            st.write("- DEFAULT")
+            st.write("- AUTO BOTH (LAST ACTIVATED)")        
+            st.write("- FROM OFFER 1 (LAST ACTIVATED)")        
+            st.write("- FROM OFFER 2 (LAST ACTIVATED)")        
+            st.write("- SELECTED COMPANIES")        
+
         st.write("- CUSTOMER RECEIPT")
         st.write("- SUPPLIER PAYMENT")
         st.write("- EXPENSE ENTRY")
