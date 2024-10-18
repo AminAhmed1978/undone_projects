@@ -1,0 +1,10 @@
+streamlit
+pandas
+matplotlib
+fpdf
+transformers
+torch
+opencv-python-headless
+Pillow
+numpy
+
