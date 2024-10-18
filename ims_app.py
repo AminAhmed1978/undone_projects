@@ -53,7 +53,6 @@ def display_menu():
             st.write("- FROM OFFER 1 (LAST ACTIVATED)")        
             st.write("- FROM OFFER 2 (LAST ACTIVATED)")        
             st.write("- SELECTED COMPANIES")        
-
         st.write("- CUSTOMER RECEIPT")
         st.write("- SUPPLIER PAYMENT")
         st.write("- EXPENSE ENTRY")
